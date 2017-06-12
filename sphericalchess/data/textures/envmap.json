@@ -1,0 +1,89 @@
+{
+    "type": "cubemap",
+    "format": "png",
+    "width": 256,
+    "height": 256,
+    "mipmapsCount": 6,
+
+    "textures":
+    [
+        {
+            "side": "+x",
+            "mipmaps":
+            [
+                "data/textures/pixels/envmap/envmap_posx_0.png",
+                "data/textures/pixels/envmap/envmap_posx_1.png",
+                "data/textures/pixels/envmap/envmap_posx_2.png",
+                "data/textures/pixels/envmap/envmap_posx_3.png",
+                "data/textures/pixels/envmap/envmap_posx_4.png",
+                "data/textures/pixels/envmap/envmap_posx_5.png",
+                "data/textures/pixels/envmap/envmap_posx_6.png"
+            ]
+        },
+        {
+            "side": "+y",
+            "mipmaps":
+            [
+                "data/textures/pixels/envmap/envmap_posy_0.png",
+                "data/textures/pixels/envmap/envmap_posy_1.png",
+                "data/textures/pixels/envmap/envmap_posy_2.png",
+                "data/textures/pixels/envmap/envmap_posy_3.png",
+                "data/textures/pixels/envmap/envmap_posy_4.png",
+                "data/textures/pixels/envmap/envmap_posy_5.png",
+                "data/textures/pixels/envmap/envmap_posy_6.png"
+            ]
+        },
+        {
+            "side": "+z",
+            "mipmaps":
+            [
+                "data/textures/pixels/envmap/envmap_posz_0.png",
+                "data/textures/pixels/envmap/envmap_posz_1.png",
+                "data/textures/pixels/envmap/envmap_posz_2.png",
+                "data/textures/pixels/envmap/envmap_posz_3.png",
+                "data/textures/pixels/envmap/envmap_posz_4.png",
+                "data/textures/pixels/envmap/envmap_posz_5.png",
+                "data/textures/pixels/envmap/envmap_posz_6.png"
+            ]
+        },
+        {
+            "side": "-x",
+            "mipmaps":
+            [
+                "data/textures/pixels/envmap/envmap_negx_0.png",
+                "data/textures/pixels/envmap/envmap_negx_1.png",
+                "data/textures/pixels/envmap/envmap_negx_2.png",
+                "data/textures/pixels/envmap/envmap_negx_3.png",
+                "data/textures/pixels/envmap/envmap_negx_4.png",
+                "data/textures/pixels/envmap/envmap_negx_5.png",
+                "data/textures/pixels/envmap/envmap_negx_6.png"
+            ]
+        },
+        {
+            "side": "-y",
+            "mipmaps":
+            [
+                "data/textures/pixels/envmap/envmap_negy_0.png",
+                "data/textures/pixels/envmap/envmap_negy_1.png",
+                "data/textures/pixels/envmap/envmap_negy_2.png",
+                "data/textures/pixels/envmap/envmap_negy_3.png",
+                "data/textures/pixels/envmap/envmap_negy_4.png",
+                "data/textures/pixels/envmap/envmap_negy_5.png",
+                "data/textures/pixels/envmap/envmap_negy_6.png"
+            ]
+        },
+        {
+            "side": "-z",
+            "mipmaps":
+            [
+                "data/textures/pixels/envmap/envmap_negz_0.png",
+                "data/textures/pixels/envmap/envmap_negz_1.png",
+                "data/textures/pixels/envmap/envmap_negz_2.png",
+                "data/textures/pixels/envmap/envmap_negz_3.png",
+                "data/textures/pixels/envmap/envmap_negz_4.png",
+                "data/textures/pixels/envmap/envmap_negz_5.png",
+                "data/textures/pixels/envmap/envmap_negz_6.png"
+            ]
+        }
+    ]
+}

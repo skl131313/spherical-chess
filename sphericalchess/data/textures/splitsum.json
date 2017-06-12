@@ -1,0 +1,13 @@
+{
+    "type": "2d",
+    "format": "rg16",
+    "width": 512,
+    "height": 512,
+    "mipmapsCount": 0,
+
+    "mipmaps":
+    [
+        "data/textures/pixels/splitsum.rg16"
+    ]
+        
+}

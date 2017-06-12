@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="src\core.hpp" />
+    <ClInclude Include="src\math\math.hpp">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\vector.hpp">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opengl\glad.h">
+      <Filter>opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opengl\khrplatform.h">
+      <Filter>opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\matrix.hpp">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opengl\shaderprogram.hpp">
+      <Filter>opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opengl\opengl.hpp">
+      <Filter>opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\constants.hpp">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\matrixfunctions.hpp">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util.hpp" />
+    <ClInclude Include="src\math\plane.hpp">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\collision.hpp" />
+    <ClInclude Include="src\math\sphere.hpp">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\json.hpp" />
+    <ClInclude Include="src\lodepng.h" />
+    <ClInclude Include="src\state\state.hpp">
+      <Filter>state</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\statemanager.hpp">
+      <Filter>state</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\mainstate.hpp">
+      <Filter>state</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\mainmenustate.hpp">
+      <Filter>state</Filter>
+    </ClInclude>
+    <ClInclude Include="src\state\settingsmenustate.hpp">
+      <Filter>state</Filter>
+    </ClInclude>
+    <ClInclude Include="src\opengl\texture.hpp">
+      <Filter>opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\resources.hpp">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\shaders.hpp">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\board.hpp">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\piece.hpp">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\modeldata.hpp" />
+    <ClInclude Include="src\opengl\glad_debug.h">
+      <Filter>opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\font.hpp">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\rect.hpp">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\impl\packagebinarytree.hpp">
+      <Filter>game\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\vectorfunctions.hpp">
+      <Filter>math</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\opengl\glad.c">
+      <Filter>opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\collision.cpp" />
+    <ClCompile Include="src\lodepng.cpp" />
+    <ClCompile Include="src\state\mainstate.cpp">
+      <Filter>state</Filter>
+    </ClCompile>
+    <ClCompile Include="src\state\statemanager.cpp">
+      <Filter>state</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opengl\texture.cpp">
+      <Filter>opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\board.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\piece.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\resources.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modeldata.cpp" />
+    <ClCompile Include="src\opengl\shaderprogram.cpp">
+      <Filter>opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\opengl\glad_debug.c">
+      <Filter>opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\font.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\impl\packagebinarytree.cpp">
+      <Filter>game\impl</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="math">
+      <UniqueIdentifier>{42172da7-55e1-46f2-b618-dbff6cc449e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opengl">
+      <UniqueIdentifier>{3408a3f4-2992-47ee-86f7-adaaeaa91c2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="state">
+      <UniqueIdentifier>{e5c2960c-f4b5-489a-9a04-e462de97500b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{ca3bf44c-4a0d-4cde-997a-268a4b037d36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\impl">
+      <UniqueIdentifier>{a7c763c2-034f-41cc-b5b5-84ed706a2c9f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

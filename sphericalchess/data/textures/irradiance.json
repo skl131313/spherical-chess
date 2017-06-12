@@ -1,0 +1,53 @@
+{
+    "type": "cubemap",
+    "format": "png",
+    "width": 128,
+    "height": 128,
+    "mipmapsCount": 0,
+
+    "textures":
+    [
+        {
+            "side": "+x",
+            "mipmaps":
+            [
+                "data/textures/pixels/irradiance_posx.png"
+            ]
+        },
+        {
+            "side": "+y",
+            "mipmaps":
+            [
+                "data/textures/pixels/irradiance_posy.png"
+            ]
+        },
+        {
+            "side": "+z",
+            "mipmaps":
+            [
+                "data/textures/pixels/irradiance_posz.png"
+            ]
+        },
+        {
+            "side": "-x",
+            "mipmaps":
+            [
+                "data/textures/pixels/irradiance_negx.png"
+            ]
+        },
+        {
+            "side": "-y",
+            "mipmaps":
+            [
+                "data/textures/pixels/irradiance_negy.png"
+            ]
+        },
+        {
+            "side": "-z",
+            "mipmaps":
+            [
+                "data/textures/pixels/irradiance_negz.png"
+            ]
+        }
+    ]
+}

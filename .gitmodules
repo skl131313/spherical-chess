@@ -1,0 +1,3 @@
+[submodule "libs"]
+	path = libs
+	url = https://github.com/skl131313/spherical-chess-libs
